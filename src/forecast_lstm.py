@@ -2,8 +2,6 @@
 Project: LSTM generic Time Series Forecasting
 
 Contributors:
-Marocchino Alberto
-Daniele Iandolo
 Fabio Mercurio
 '''
 
