@@ -39,10 +39,10 @@ def MAPE_MAE_RMSE(df_output):
 #%% PARAMETERS SETTING
 
 ### Input, exogenous and output DATA SETTINGS
-input_filename = "barilla_ICA_CRISPBREAD_Wasa.csv" # barilla_ICA_CRISPBREAD_Wasa, covid_italy_cases_processed , AirQualityUCI_processed , delhi_climate_temperature_processed
-target_column = "Amount" #Amount, New_cases , NOx(GT) , meantemp ### MANDATORY TARGET COLUMN TO DEFINE
-time_column = "data" # data, Date_reported, Time , date  ### MANDATORY TARGET COLUMN(S) TO DEFINE
-frequency_data = "MS" # Offset
+input_filename = "covid_italy_cases_processed.csv" #, covid_italy_cases_processed , AirQualityUCI_processed , delhi_climate_temperature_processed
+target_column = "New_cases" #New_cases , NOx(GT) , meantemp ### MANDATORY TARGET COLUMN TO DEFINE
+time_column = "Date_reported" # Date_reported, Time , date  ### MANDATORY TARGET COLUMN(S) TO DEFINE
+frequency_data = "D" # Offset
 columns_to_exclude = [] #"New_deaths" ### Here you can list the columns that must not be considered in input and exogenous
 
 outname = input_filename[:-4]+ "_forecast.csv" #Forecast filename
