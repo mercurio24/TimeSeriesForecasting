@@ -1,11 +1,8 @@
 '''
-Project: PoC Loro Piana
+Project: Time Series Forecasting
 
 Contributors:
-Marocchino Alberto
-Daniele Iandolo
-
-at present performs an ARIMA model
+Fabio Mercurio
 '''
 
 #%%
